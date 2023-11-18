@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "NodeJS clean arqchitecture",
   "main": "index.js",
+  "author": "",
+  "license": "ISC",
   "scripts": {
     "test": "jest --passWithNoPass",
     "test:staged": "jest --passWithNoPass"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.8",
     "@types/node": "^20.9.0",
