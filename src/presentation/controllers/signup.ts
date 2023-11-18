@@ -8,7 +8,7 @@ export class SignUpController {
 
     for (const field of requeridFields) {
       if (!httpRequest.body[field]) {
-        return badRequest(new MissingParamError('email'))
+        return badRequest(new MissingParamError(field))
       }
     }
 
