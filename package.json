@@ -4,8 +4,8 @@
   "description": "NodeJS clean arqchitecture",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoPass",
+    "test:staged": "jest --passWithNoPass"
   },
   "author": "",
   "license": "ISC",
