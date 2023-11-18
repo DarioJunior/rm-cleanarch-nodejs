@@ -6,7 +6,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests",
     "prepare": "husky install",
     "lint-staged": "npx lint-staged"
