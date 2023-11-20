@@ -1,6 +1,4 @@
-import type { Config } from 'jest'
-
-const config: Config = {
+const config = {
   roots: ['<rootDir>/src/'],
   // Indicates whether the coverage information should be collected while executing the test
   collectCoverage: true,
@@ -19,4 +17,4 @@ const config: Config = {
   }
 }
 
-export default config
+module.exports = config
